@@ -18,3 +18,7 @@ spec:
       repository: weaveworks/flagger
       tag: 0.18.1
       pullPolicy: IfNotPresent
+    slack:
+      user: flagger
+      channel: general
+      url: https://hooks.slack.com/services/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
