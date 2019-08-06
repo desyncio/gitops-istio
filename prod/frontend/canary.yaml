@@ -45,6 +45,9 @@ spec:
       - headers:
           cookie:
             regex: "^(.*?;)?(type=insider)(;.*)?$"
+      - headers:
+          cookie:
+            regex: "^(.*?;)?(version=0.1.0)(;.*)?$"
     metrics:
     - name: request-success-rate
       # minimum req success rate (non 5xx responses)
